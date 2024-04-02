@@ -5,7 +5,6 @@ flowchart TD
 
 subgraph gr2["ПРИБОР"]
 direction TB
-title[<b>Блок ПРИБОР</b>]
 h1(["BPEMЯ=Tслом"])==> h2["сост:=<br>сломан"]
 h2 ==> h3(["режим=<br>работа"])
 h3 ==> h4(["мастер<br>=своб"])
